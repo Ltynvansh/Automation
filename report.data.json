@@ -1,0 +1,757 @@
+{
+    "input_data": {
+        "Family_data": {
+            "members": [
+                {
+                    "title": "Mr",
+                    "name": "vansh",
+                    "gender": "Male",
+                    "DateBirth": "04 February 2025",
+                    "Location": "Delhi",
+                    "BirthTime": "10:20 PM",
+                    "kundli_required": true,
+                    "latitude": 28.7040592,
+                    "longitude": 77.10249019999999
+                },
+                {
+                    "title": "Mr",
+                    "name": "harsh",
+                    "gender": "Male",
+                    "DateBirth": "02 February 1901",
+                    "Location": "delhi",
+                    "BirthTime": "02:02 AM",
+                    "kundli_required": true,
+                    "latitude": 28.7040592,
+                    "longitude": 77.10249019999999
+                }
+            ],
+            "number_of_members": 2,
+            "include_notes_in_report": 1,
+            "notes_text": "hello every one is very great",
+            "notes_dump": [
+                [
+                    "text",
+                    "hello every one is very great ",
+                    "1.0"
+                ]
+            ]
+        },
+        "Home_data": {
+            "Cut": {
+                "Count": 1,
+                "CutZone": {
+                    "1": [
+                        "ENE",
+                        "E",
+                        "ESE",
+                        "WSW",
+                        "W",
+                        "WNW"
+                    ]
+                }
+            },
+            "Extension": {
+                "Count": 1,
+                "ExtensionZone": {
+                    "1": [
+                        "NNE",
+                        "SSE",
+                        "SSW",
+                        "NNW"
+                    ]
+                }
+            },
+            "Toilet": {
+                "Count": 2,
+                "ToiletZone": {
+                    "1": [
+                        "NE",
+                        "SE",
+                        "NNE",
+                        "E"
+                    ],
+                    "2": [
+                        "ENE",
+                        "ESE",
+                        "SSE"
+                    ]
+                },
+                "Labels": {
+                    "1": "Toilet 1",
+                    "2": "Toilet 2"
+                }
+            },
+            "Entrance": {
+                "Count": 2,
+                "EntranceZone": {
+                    "1": [
+                        "E3",
+                        "N8"
+                    ],
+                    "2": [
+                        "E4",
+                        "N7",
+                        "E3"
+                    ]
+                },
+                "Labels": {
+                    "1": "Entrance 1",
+                    "2": "Entrance 2"
+                }
+            },
+            "Kitchen": {
+                "Count": 3,
+                "KitchenZone": {
+                    "1": [
+                        "ENE",
+                        "S",
+                        "SSE"
+                    ],
+                    "2": [
+                        "SE",
+                        "ESE",
+                        "E"
+                    ],
+                    "3": [
+                        "SSE",
+                        "NNE"
+                    ]
+                },
+                "Labels": {
+                    "1": "Kitchen 1",
+                    "2": "Kitchen 2",
+                    "3": "Kitchen 3"
+                }
+            }
+        },
+        "address": "vansh",
+        "required_MarriageRemedies": 1,
+        "required_CourtCaseRemedies": 1,
+        "include_notes_in_report": 1,
+        "date_of_visit": "delhi",
+        "notes_text": "hello every one is very great",
+        "notes_dump": [
+            [
+                "text",
+                "hello every one is very great ",
+                "1.0"
+            ]
+        ],
+        "AurascannerTable": {
+            "45_devtas_energy": {
+                "Brahma": {
+                    "result": "sfdsdfsef",
+                    "remedy": "fwefergege"
+                },
+                "Bhudhar": {
+                    "result": "ft3et34t45t545",
+                    "remedy": "trt54t45ty4"
+                },
+                "Aryama": {
+                    "result": "frwefertert",
+                    "remedy": "3t3t4t4y4y44gefsfw"
+                },
+                "Vivasvan": {
+                    "result": "wefwfgergegte",
+                    "remedy": "wfegghrthrhr"
+                },
+                "Mitra": {
+                    "result": "ftgegergr",
+                    "remedy": "wfwggrtrhr"
+                },
+                "APA": {
+                    "result": "egrtrthere",
+                    "remedy": "erwgerthtry"
+                },
+                "RAJYAKSMA": {
+                    "result": "fergtrhtrty",
+                    "remedy": "grthhtyth"
+                },
+                "APAVATSA": {
+                    "result": "fsfeggrhrthr",
+                    "remedy": "gdghrth"
+                },
+                "SAVITA": {
+                    "result": "grtgrhtyh",
+                    "remedy": "egtgrtgh"
+                },
+                "SAVITRA": {
+                    "result": "frewgrgrtghr",
+                    "remedy": "fsdhfweufegrfyer"
+                },
+                "INDRA": {
+                    "result": "shdjfbegerbg",
+                    "remedy": "fhjbswfrefbeir"
+                },
+                "JAYA": {
+                    "result": "sdfdjfjherf",
+                    "remedy": "dqwuieyrwu"
+                },
+                "RUDRA": {
+                    "result": "dewqrdewhiufrh",
+                    "remedy": "fhwbfwejrffb"
+                }
+            },
+            "16_zone_energy": {
+                "North": "vadsadfufwe",
+                "NNE": "dqwehdbufv",
+                "NE": "fdhwefvuvwufu",
+                "ENE": "dewfvwvfwevu",
+                "East": "ewfhfewfvwv",
+                "ESE": "wehvfhwevfvwef",
+                "SE": "fwevvfwevfvwek",
+                "SSE": "dwehfvwevfv",
+                "South": "dewhqvfhvvewfv",
+                "SSW": "eqwfvewfvwevfvwe",
+                "SW": "ewfvwvfjkwvfvf",
+                "WSW": "gd qgfwghw",
+                "West": "dquduqwudvd",
+                "WNW": "qewvfdewqfvvuf",
+                "NW": "qdfefvwqfvwefi",
+                "NNW": "deqhdfvewfw",
+                "Zone_cut_extended": "qgefvewfjuwv",
+                "Element_cut_extended": "eqhvfdwwev"
+            },
+            "5_elements_energy": {
+                "Water Element (NNW, N, NNE, NE)": {
+                    "enhancer": "fd fhwewefvw",
+                    "balancer": "ehwqfhw w"
+                },
+                "Air Element (ENE, E, ESE)": {
+                    "enhancer": "ewfvejfwvf",
+                    "balancer": "ewvfhvwvw"
+                },
+                "Fire Element (SE, SSE, S)": {
+                    "enhancer": "eqhgfvfwe",
+                    "balancer": "ewfvwevfvwfvw"
+                },
+                "Earth Element (SSW, SW)": {
+                    "enhancer": "hfevwfwufwuv",
+                    "balancer": "qdvqwduwqd"
+                },
+                "Space Element (WSW, W, WNW, NW)": {
+                    "enhancer": "qdffweufwf",
+                    "balancer": "qewdwuyd"
+                }
+            },
+            "other_energies": {
+                "-IR": "dqevdfwfvgwwvf",
+                "-UV": "dvefvwfvvfiewi",
+                "B.Magic": "eqfwefeiuf",
+                "D.Energy": "ewfwefuwgfuw",
+                "Positive Aura": "dvfwefwevfw",
+                "Negative Aura": "qwdhfwefvwef",
+                "Spirits": "duewfvewfwef",
+                "Pishach Yog": "qwfvwufvwef"
+            },
+            "dosh_yog": {
+                "Bandhan Dosh": "qdbe wbfjw",
+                "Pitra Dosh": "fwjevewjfwef",
+                "Kundli Dosh": "fewhfvwefriw",
+                "Manglik Dosh": "erfwebrfiwfviw",
+                "Chakra Dosh": "qdfewhjwvw",
+                "Kalsarp Dosh": "efwevwvfwifwfiwop",
+                "Vaastu Dosh": "w f svvchshbvberfi",
+                "Global Energy (B/H)": "wehfbeifiwf",
+                "Cosmic Energy (B/H)": "wefhwebfiwfiw",
+                "Geopathic Stress": "ewbfwfwfiwffwefweofw",
+                "Trading Success": "diwefbwefiwf",
+                "Business Success": "fhwejfwefwerif",
+                "Job Success": "ewqhfwfwiv",
+                "Marriage Yog": "qwfhvwfvwf"
+            },
+            "nine_planets_energy": {
+                "Sun (Surya)": "vaudadvfuwf",
+                "Moon (Chandra)": "ewfvwfhwfvhfhvjh",
+                "Mars (Mangal)": "fjbwewefwbei",
+                "Mercury (Budh)": "wefbwebfwfbwk",
+                "Jupiter (Brihaspati)": "fwfjwehbkwef",
+                "Venus (Shukra)": "ewfehwerkfber",
+                "Saturn (Shani)": "wfwbfwjbfkewfb",
+                "Rahu": "f wjfwkfhwfk",
+                "Ketu": "wfhwfjwf"
+            },
+            "seven_chakra_energy": {
+                "Crown Chakra (Violet)": "afvdhsdufvhv",
+                "Third Eye Chakra (Dark Blue)": "dhdwefwuefwf",
+                "Throat Chakra (Light Blue)": "dhewfwew",
+                "Heart Chakra (Green)": "fhbwehfwefw"
+            }
+        }
+    },
+    "profession": "Clothing",
+    "devtaTable": 1,
+    "CustomthreeD": {},
+    "modifedThreeDdata": {
+        "INDRADEV": {
+            "Name": "INDRA DEV",
+            "short": "Creates Organised Systems",
+            "Img": "https://vastuapp.s3.amazonaws.com/vastuimages/Indradev.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAR5FRRZWMU42YMRGV%2F20260109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260109T152758Z&X-Amz-Expires=259200&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRzBFAiEAvfnLCylD%2FPJHzdDrklNahdPG6HA0CubKd9QyiFm964ECIBsIc9xWlQNwIczLdLzsmyiJLd1sHhLpf7QV2cfbyevuKvYCCKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMMTMxMzY4ODY1MTc3IgyiUEqBC92kX5jVPpgqygKpN0yt4nLJ%2FOSzrC1USePVF3artlqMpjwoO57ps4QZY16L9yonj7ABQuJPvii5igyw7Dk%2BiXtl4vt%2BsaR17k5PO1cKMF23TCpF%2B%2FVCopKP5LdEuohegt8jdT%2B1kxns449JaWCnCWq6eSA9Fg%2BQPU3xW1fiKt51eTwOabM90RqICiVCeCEPt%2FtrDjzV90%2B%2B0QJ3bMUsge71g4cr8fUVqxTpVoFz4fBdeg20ljrR9w6n3J5tcn%2F%2FvB7gOyvbQrw69xz%2BBvfJ6yIDN3rJH4hUY0lSFp4h9omsibcSaywmj4aQ8ZR%2BEbkbm27vB940mWB7RG3AECw7Z11P%2Fl8ougVAqGaVsNoBbz4nXg0fuWEySFk9Rb7WKiKdDYHh9nenTRTaNEqIwI0k%2FeiuyXR23MR6mKvRrbkvQ6JUJ%2BB85Dm%2FwSnlSepxLQDQj6YAkJcwu6aEywY6ngEgbp2YqQ9KFDCsR%2FqK0WF8o1cPsYTocT2PXXBrnTwf1HWYvc6vaEHJci4wjcyMBX0yyZDJpoBUsQhkkRD%2BUlnq3EUxzSIoIov8oFCC6vHbgZprMliyrv%2FiLb6EqGFvBgUz9HNgdpaj7CxZmnFUcIi%2BXIPFs9uG24C5MBnn%2FNfK8Fd80hT6dBic5ntcf9c3KWSmqsrwlC8MxPnS2vawXw%3D%3D&X-Amz-Signature=5b5248c0578d444b080174c0ace81c440498a5559d37c25aa6484e22e99450ab",
+            "Img_path": "/Users/vanshlatiyan/Library/Application Support/VastuApp/custom_images/Indradev.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAR5FRRZWMU42YMRGV%2F20260109%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20260109T152758Z&X-Amz-Expires=259200&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiRzBFAiEAvfnLCylD%2FPJHzdDrklNahdPG6HA0CubKd9QyiFm964ECIBsIc9xWlQNwIczLdLzsmyiJLd1sHhLpf7QV2cfbyevuKvYCCKj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMMTMxMzY4ODY1MTc3IgyiUEqBC92kX5jVPpgqygKpN0yt4nLJ%2FOSzrC1USePVF3artlqMpjwoO57ps4QZY16L9yonj7ABQuJPvii5igyw7Dk%2BiXtl4vt%2BsaR17k5PO1cKMF23TCpF%2B%2FVCopKP5LdEuohegt8jdT%2B1kxns449JaWCnCWq6eSA9Fg%2BQPU3xW1fiKt51eTwOabM90RqICiVCeCEPt%2FtrDjzV90%2B%2B0QJ3bMUsge71g4cr8fUVqxTpVoFz4fBdeg20ljrR9w6n3J5tcn%2F%2FvB7gOyvbQrw69xz%2BBvfJ6yIDN3rJH4hUY0lSFp4h9omsibcSaywmj4aQ8ZR%2BEbkbm27vB940mWB7RG3AECw7Z11P%2Fl8ougVAqGaVsNoBbz4nXg0fuWEySFk9Rb7WKiKdDYHh9nenTRTaNEqIwI0k%2FeiuyXR23MR6mKvRrbkvQ6JUJ%2BB85Dm%2FwSnlSepxLQDQj6YAkJcwu6aEywY6ngEgbp2YqQ9KFDCsR%2FqK0WF8o1cPsYTocT2PXXBrnTwf1HWYvc6vaEHJci4wjcyMBX0yyZDJpoBUsQhkkRD%2BUlnq3EUxzSIoIov8oFCC6vHbgZprMliyrv%2FiLb6EqGFvBgUz9HNgdpaj7CxZmnFUcIi%2BXIPFs9uG24C5MBnn%2FNfK8Fd80hT6dBic5ntcf9c3KWSmqsrwlC8MxPnS2vawXw%3D%3D&X-Amz-Signature=5b5248c0578d444b080174c0ace81c440498a5559d37c25aa6484e22e99450ab",
+            "Location": [
+                "East"
+            ],
+            "Desc": "It will bring new connections and contacts.Skilled people will join your business and remove any obstacles while starting any new project. You will also win government deals and contracts.",
+            "Notes": "It should face towards west.",
+            "Price": "5000",
+            "weblink": "N/A"
+        }
+    },
+    "CustomDevtas": {},
+    "modifedDevtas": {},
+    "CustomFengShui": {},
+    "modifedFengShuidata": {},
+    "CustomRemedies": {
+        "Custom_grtghy4ht": {
+            "Name": "grtghy4ht",
+            "Zone": "NNE",
+            "Description": "gthy5tgrfedwfertghyjhtgrfd",
+            "Category": "Relationship",
+            "Duration": "wfrgthjk",
+            "Materials": "rewgthyju",
+            "Instructions": "N/A",
+            "Notes": "hnbgfvds",
+            "Img": "N/A"
+        }
+    },
+    "modifedRemediesdata": {},
+    "CustomNavGrahShanti": {},
+    "modifedNavGrahShantidata": {},
+    "last_modified": "2026-03-17T10:22:10.749086",
+    "selected_3d_items": {
+        "INDRADEV": true,
+        "VillageScene": true,
+        "RedHorses12": true,
+        "DancingDolphins": true,
+        "AshokaPillar": true,
+        "Camel": true,
+        "RedElephants": true,
+        "LoveBirds": true,
+        "BrassLion": true,
+        "Eagle": true,
+        "TORTOISE_W": true,
+        "Swan": true,
+        "GreenMountains": true,
+        "Kuber": true,
+        "YellowFlowerVas": true,
+        "WeighingScale": true,
+        "Airplane": true,
+        "Hanuman": true,
+        "Nandi_W": true,
+        "Deer": true,
+        "KaamDhenu": true,
+        "Sun": true,
+        "Trishul": true,
+        "Owl": true,
+        "WhiteHorsesPair": true,
+        "Pyramid_NE": true,
+        "Swastik": true,
+        "Flame": true,
+        "Talwar": true,
+        "Pyramid_NNE": true,
+        "RedHorsesPair": true,
+        "FLOWERS": true,
+        "Nandi_SW": true,
+        "WhiteHorses12": true,
+        "Talwar_S": true,
+        "Shankh": true,
+        "RedElephants_N": true
+    },
+    "selected_devta_items": {
+        "Isha/Shikhi": true,
+        "Vivasvaan": true,
+        "Rajajakshma": true,
+        "Naga": true,
+        "Paapyakshama": true,
+        "Roga": true,
+        "Mahendra/Kulishyudha": true,
+        "Aapaha": true
+    },
+    "selected_remedy_items": {
+        "Custom_grtghy4ht": true
+    },
+    "selected_fengshui_items": {
+        "Fu_dogs": true,
+        "MysticKnot": true,
+        "BuddhaInAbhayMudra": true,
+        "Crystals": true,
+        "RedColor": true,
+        "Lucky_bamboo": true
+    },
+    "selected_eight_zone_vastu_items": {},
+    "question_list": [],
+    "virtualDoor": [],
+    "AuraScanner": {
+        "45_devtas_energy": {
+            "Brahma": {
+                "result": "sfdsdfsef",
+                "remedy": "fwefergege"
+            },
+            "Bhudhar": {
+                "result": "ft3et34t45t545",
+                "remedy": "trt54t45ty4"
+            },
+            "Aryama": {
+                "result": "frwefertert",
+                "remedy": "3t3t4t4y4y44gefsfw"
+            },
+            "Vivasvan": {
+                "result": "wefwfgergegte",
+                "remedy": "wfegghrthrhr"
+            },
+            "Mitra": {
+                "result": "ftgegergr",
+                "remedy": "wfwggrtrhr"
+            },
+            "APA": {
+                "result": "egrtrthere",
+                "remedy": "erwgerthtry"
+            },
+            "RAJYAKSMA": {
+                "result": "fergtrhtrty",
+                "remedy": "grthhtyth"
+            },
+            "APAVATSA": {
+                "result": "fsfeggrhrthr",
+                "remedy": "gdghrth"
+            },
+            "SAVITA": {
+                "result": "grtgrhtyh",
+                "remedy": "egtgrtgh"
+            },
+            "SAVITRA": {
+                "result": "frewgrgrtghr",
+                "remedy": "fsdhfweufegrfyer"
+            },
+            "INDRA": {
+                "result": "shdjfbegerbg",
+                "remedy": "fhjbswfrefbeir"
+            },
+            "JAYA": {
+                "result": "sdfdjfjherf",
+                "remedy": "dqwuieyrwu"
+            },
+            "RUDRA": {
+                "result": "dewqrdewhiufrh",
+                "remedy": "fhwbfwejrffb"
+            }
+        },
+        "16_zone_energy": {
+            "North": "vadsadfufwe",
+            "NNE": "dqwehdbufv",
+            "NE": "fdhwefvuvwufu",
+            "ENE": "dewfvwvfwevu",
+            "East": "ewfhfewfvwv",
+            "ESE": "wehvfhwevfvwef",
+            "SE": "fwevvfwevfvwek",
+            "SSE": "dwehfvwevfv",
+            "South": "dewhqvfhvvewfv",
+            "SSW": "eqwfvewfvwevfvwe",
+            "SW": "ewfvwvfjkwvfvf",
+            "WSW": "gd qgfwghw",
+            "West": "dquduqwudvd",
+            "WNW": "qewvfdewqfvvuf",
+            "NW": "qdfefvwqfvwefi",
+            "NNW": "deqhdfvewfw",
+            "Zone_cut_extended": "qgefvewfjuwv",
+            "Element_cut_extended": "eqhvfdwwev"
+        },
+        "5_elements_energy": {
+            "Water Element (NNW, N, NNE, NE)": {
+                "enhancer": "fd fhwewefvw",
+                "balancer": "ehwqfhw w"
+            },
+            "Air Element (ENE, E, ESE)": {
+                "enhancer": "ewfvejfwvf",
+                "balancer": "ewvfhvwvw"
+            },
+            "Fire Element (SE, SSE, S)": {
+                "enhancer": "eqhgfvfwe",
+                "balancer": "ewfvwevfvwfvw"
+            },
+            "Earth Element (SSW, SW)": {
+                "enhancer": "hfevwfwufwuv",
+                "balancer": "qdvqwduwqd"
+            },
+            "Space Element (WSW, W, WNW, NW)": {
+                "enhancer": "qdffweufwf",
+                "balancer": "qewdwuyd"
+            }
+        },
+        "other_energies": {
+            "-IR": "dqevdfwfvgwwvf",
+            "-UV": "dvefvwfvvfiewi",
+            "B.Magic": "eqfwefeiuf",
+            "D.Energy": "ewfwefuwgfuw",
+            "Positive Aura": "dvfwefwevfw",
+            "Negative Aura": "qwdhfwefvwef",
+            "Spirits": "duewfvewfwef",
+            "Pishach Yog": "qwfvwufvwef"
+        },
+        "dosh_yog": {
+            "Bandhan Dosh": "qdbe wbfjw",
+            "Pitra Dosh": "fwjevewjfwef",
+            "Kundli Dosh": "fewhfvwefriw",
+            "Manglik Dosh": "erfwebrfiwfviw",
+            "Chakra Dosh": "qdfewhjwvw",
+            "Kalsarp Dosh": "efwevwvfwifwfiwop",
+            "Vaastu Dosh": "w f svvchshbvberfi",
+            "Global Energy (B/H)": "wehfbeifiwf",
+            "Cosmic Energy (B/H)": "wefhwebfiwfiw",
+            "Geopathic Stress": "ewbfwfwfiwffwefweofw",
+            "Trading Success": "diwefbwefiwf",
+            "Business Success": "fhwejfwefwerif",
+            "Job Success": "ewqhfwfwiv",
+            "Marriage Yog": "qwfhvwfvwf"
+        },
+        "nine_planets_energy": {
+            "Sun (Surya)": "vaudadvfuwf",
+            "Moon (Chandra)": "ewfvwfhwfvhfhvjh",
+            "Mars (Mangal)": "fjbwewefwbei",
+            "Mercury (Budh)": "wefbwebfwfbwk",
+            "Jupiter (Brihaspati)": "fwfjwehbkwef",
+            "Venus (Shukra)": "ewfehwerkfber",
+            "Saturn (Shani)": "wfwbfwjbfkewfb",
+            "Rahu": "f wjfwkfhwfk",
+            "Ketu": "wfhwfjwf"
+        },
+        "seven_chakra_energy": {
+            "Crown Chakra (Violet)": "afvdhsdufvhv",
+            "Third Eye Chakra (Dark Blue)": "dhdwefwuefwf",
+            "Throat Chakra (Light Blue)": "dhewfwew",
+            "Heart Chakra (Green)": "fhbwehfwefw"
+        }
+    },
+    "AuraScanner_enabled_states": {
+        "45_devtas_energy": true,
+        "16_zone_energy": true,
+        "5_elements_energy": true,
+        "other_energies": true,
+        "dosh_yog": true,
+        "nine_planets_energy": true,
+        "seven_chakra_energy": true
+    },
+    "reqType": "Rem",
+    "selected_navgrahshanti_items": {
+        "Mars": true,
+        "Jupiter": true,
+        "Saturn": true,
+        "Moon": true,
+        "Venus": true,
+        "Ketu": true,
+        "Rahu": true,
+        "Sun": true,
+        "Mercury": true
+    },
+    "email": "info@call-astro.com",
+    "phone": "+91-950459807",
+    "website": "https://www.call-astro.com",
+    "ASTAKVARGA TABLE": {
+        "Home Table": true,
+        "Office Table": true,
+        "home_table_type": true,
+        "office_table_type": true
+    },
+    "report_settings_toggles": {
+        "Numerovastu": {
+            "priority": 1.0,
+            "is_required": true,
+            "content": {
+                "Extracted_info": {
+                    "priority": 1.1,
+                    "is_required": true
+                },
+                "zonal_strengths_table_data": {
+                    "priority": 1.2,
+                    "is_required": true
+                },
+                "numerovastu_remedies": {
+                    "priority": 1.3,
+                    "is_required": true
+                },
+                "numerovastu_kua": {
+                    "priority": 1.4,
+                    "is_required": true
+                },
+                "fengshui_cards": {
+                    "priority": 1.5,
+                    "is_required": true
+                }
+            }
+        },
+        "Astro Vastu": {
+            "priority": 2.0,
+            "is_required": true,
+            "content": {
+                "astro_kundli": {
+                    "priority": 2.1,
+                    "is_required": true
+                },
+                "astro_astakavarga": {
+                    "priority": 2.2,
+                    "is_required": true
+                },
+                "astro_hit_theory": {
+                    "priority": 2.3,
+                    "is_required": true
+                },
+                "astro_lagna_table": {
+                    "priority": 2.4,
+                    "is_required": true
+                }
+            }
+        },
+        "Activity": {
+            "priority": 3.0,
+            "is_required": true,
+            "content": {
+                "activity_general_and_crystals": {
+                    "priority": 3.1,
+                    "is_required": true
+                }
+            }
+        },
+        "Aura Scanning": {
+            "priority": 14.0,
+            "is_required": true,
+            "content": {}
+        },
+        "16 Zones and Remedies (3D)": {
+            "priority": 4.0,
+            "is_required": true,
+            "content": {},
+            "sixteen_zones": {
+                "enabled": true,
+                "mode": "detailed",
+                "selected_zones": [
+                    "N",
+                    "NNE",
+                    "NE",
+                    "ENE",
+                    "E",
+                    "ESE",
+                    "SE",
+                    "SSE",
+                    "S",
+                    "SSW",
+                    "SW",
+                    "WSW",
+                    "W",
+                    "WNW",
+                    "NW",
+                    "NNW"
+                ]
+            }
+        },
+        "Vastu Related to Your Profession": {
+            "priority": 5.0,
+            "is_required": true,
+            "content": {
+                "profession": {
+                    "priority": 5.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Marriage Remedies": {
+            "priority": 6.0,
+            "is_required": true,
+            "content": {
+                "marriage_remedies": {
+                    "priority": 6.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Court Case Remedies": {
+            "priority": 7.0,
+            "is_required": true,
+            "content": {
+                "court_case": {
+                    "priority": 7.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Gridding analysis (Entrance/Toilet/Kitchen)": {
+            "priority": 8.0,
+            "is_required": true,
+            "content": {
+                "gridding_analysis": {
+                    "priority": 8.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Cut and Extended Table": {
+            "priority": 9.0,
+            "is_required": true,
+            "content": {
+                "cut_extended": {
+                    "priority": 9.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Vastu Devta Mandala": {
+            "priority": 10.0,
+            "is_required": true,
+            "content": {
+                "vastu_devta_mandala": {
+                    "priority": 10.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Devtas energy field": {
+            "priority": 11.0,
+            "is_required": true,
+            "content": {
+                "devtas_energy_field": {
+                    "priority": 11.0,
+                    "is_required": true
+                }
+            }
+        },
+        "PRASHNA VICHAR": {
+            "priority": 12.0,
+            "is_required": true,
+            "content": {
+                "prashna_vichar": {
+                    "priority": 12.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Wall Color Schema/Curtain Colors": {
+            "priority": 13.0,
+            "is_required": true,
+            "content": {
+                "wall_color_schema": {
+                    "priority": 13.0,
+                    "is_required": true
+                }
+            }
+        }
+    },
+    "kp_hit_theory": {
+        "enabled": true,
+        "conj": true,
+        "minor": true,
+        "major": true,
+        "hit_rahu_ketu": true,
+        "aspect_ranges": {
+            "0": 8,
+            "30": 9,
+            "45": 9,
+            "60": 9,
+            "72": 9,
+            "90": 8,
+            "120": 8,
+            "135": 2,
+            "150": 4,
+            "180": 8
+        }
+    },
+    "date": "2026-03-17"
+}

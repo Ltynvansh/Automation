@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/vanshlatiyan/Downloads/Vansh/d folder/Automation/venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from deepdiff.commands import cli
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(cli())

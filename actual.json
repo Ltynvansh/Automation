@@ -1,0 +1,417 @@
+{
+    "name": "call-astro",
+    "email": "info@call-astro.com",
+    "phone": "+91-950459807",
+    "website": "https://www.call-astro.com",
+    "compass_scales": {
+        "Moderne vastu Compass": 1.0,
+        "Vedic Compass": 1.0,
+        "Moderne vastu Compass 1": 1.0,
+        "Nakshatra Chakra": 1.0
+    },
+    "toggles": {
+        "Numero": true,
+        "Kua Number table": true,
+        "Lo Shu Grid": true,
+        "Zone strength table": true,
+        "Remedies": true,
+        "Astro": true,
+        "Kundli": true,
+        "Lagn chart": true,
+        "Astro Vastu Chart": true,
+        "Astro Vastu Table": true,
+        "Vedic Vastu Chart": true,
+        "Lal Kitab Makaan Kundli Chart": true,
+        "Vimshottari Dasha": true,
+        "Navtara Chakra": true,
+        "Devta Based on Dasha": true,
+        "Plant Remedies": true,
+        "As per Astro-Vastu (Lagna Table)": true,
+        "KP Planet to Planet": true,
+        "KP house to Planet": true,
+        "Activity": true,
+        "General suggestion": false,
+        "Crystal Remedies": true,
+        "Medical": true,
+        "Tridosha Moderne vastu": true,
+        "Tridosha Vedic Vastu": true,
+        "Body part": true,
+        "Devta": true,
+        "Moderne vastu Names 81": true,
+        "Moderne vastu Names 64": true,
+        "Moderne vastu Numbers 81": true,
+        "Moderne vastu Numbers 64": true,
+        "Vedic Names 81": true,
+        "Vedic Names 64": true,
+        "Vedic Numbers 81": true,
+        "Vedic Numbers 64": true,
+        "ASTAKVARGA TABLE": true,
+        "Home Table": true,
+        "Office Table": true,
+        "3D remedies inside 16 zones": true,
+        "Wall color table": true,
+        "Center point image": true,
+        "PRASHNA VICHAR": true,
+        "Feng Shui Cards": true,
+        "8 Zones Analysis": true,
+        "16 Zones Analysis": true,
+        "24 Zones Analysis": true,
+        "64 Zones Analysis": true,
+        "32 Zone Moderne vastu": true,
+        "32 Zone Vedic Vastu": true,
+        "Marma sthan": true,
+        "64 padvinyash": true,
+        "81 padvinyash": true,
+        "Vedic Planet Zoning": true,
+        "Elemental Zone": true,
+        "Vedic Elemental Zone": true,
+        "Triguna": true,
+        "Triguna Vedic Vastu": true,
+        "Sourcesink": true,
+        "google earth": true,
+        "color image": true,
+        "Surya Chandra Bhag": true,
+        "16 Direction Domestic Vastu": true,
+        "8 Mandal Image": true,
+        "4 States Image": true,
+        "Moderne vastu Compass": true,
+        "Vedic Compass": true,
+        "Moderne vastu Compass 1": true,
+        "Ratna Sthapna": true,
+        "Nakshatra Vastu": true,
+        "Shakti Chakra": true,
+        "Zodiac Vastu": true,
+        "Ancient Devtas Pad": true,
+        "Astha Disha Griha Vastu": true,
+        "TriDosha Pie Chart": true,
+        "TriGuna Pie Chart": true,
+        "16 Zone Guidelines": true,
+        "32 Zone Guidelines": true,
+        "64 Zone Guidelines": true,
+        "4 States Guidelines": true,
+        "home_table_type": true,
+        "office_table_type": true,
+        "General Suggestions": true,
+        "Profession Table": true,
+        "Marriage Remedies Table": true,
+        "Court Case Remedies Table": true,
+        "Category Tables": true,
+        "Cut and Extended Table": true,
+        "Vastu Devta Table": true,
+        "Court Case Devta Energy Fields Table": true,
+        "Maanasaram grandh": true,
+        "Mayamatham grandh": true,
+        "Aparajitaprccha grandh": true,
+        "Nakshatra Chakra": true,
+        "Ancient 81 pad Devta": true,
+        "Ancient 81 pad Number": true,
+        "Padvinyash Guidelines 64": true,
+        "Padvinyash Brahmanabhi 64": true,
+        "Padvinyash Guidelines 81": true,
+        "Padvinyash Brahmanabhi 81": true,
+        "Ruling Deities Description": true,
+        "16 Zones Directions": true,
+        "16 Zones Numbers": true,
+        "Commercial Vastu": true,
+        "Industrial Vastu": true,
+        "Office Vastu": true,
+        "Hospital Vastu": true,
+        "Grocery Store Vastu": true,
+        "Gender Vastu": true,
+        "Five Elements of Fengshui": true,
+        "Academic Vastu": true,
+        "Direction and Their Influence": true,
+        "Hindi Labels": true,
+        "Nakshatra Vastu Name": true,
+        "Nakshatra Vastu Number": true,
+        "Colored Image": true,
+        "Labeled Image": true,
+        "NavGrah Shanti": true,
+        "Aura Scanning": true
+    },
+    "kp_hit_theory": {
+        "enabled": true,
+        "conj": true,
+        "minor": true,
+        "major": true,
+        "hit_rahu_ketu": true,
+        "aspect_ranges": {
+            "0": 8,
+            "30": 9,
+            "45": 9,
+            "60": 9,
+            "72": 9,
+            "90": 8,
+            "120": 8,
+            "135": 2,
+            "150": 4,
+            "180": 8
+        }
+    },
+    "watermark_text": "",
+    "watermark_image": "",
+    "report_settings_toggles": {
+        "Numerovastu": {
+            "priority": 1.0,
+            "is_required": true,
+            "content": {
+                "Extracted_info": {
+                    "priority": 1.1,
+                    "is_required": true
+                },
+                "zonal_strengths_table_data": {
+                    "priority": 1.2,
+                    "is_required": true
+                },
+                "numerovastu_remedies": {
+                    "priority": 1.3,
+                    "is_required": true
+                },
+                "numerovastu_kua": {
+                    "priority": 1.4,
+                    "is_required": true
+                },
+                "fengshui_cards": {
+                    "priority": 1.5,
+                    "is_required": true
+                }
+            }
+        },
+        "Astro Vastu": {
+            "priority": 2.0,
+            "is_required": true,
+            "content": {
+                "astro_kundli": {
+                    "priority": 2.1,
+                    "is_required": true
+                },
+                "astro_astakavarga": {
+                    "priority": 2.2,
+                    "is_required": true
+                },
+                "astro_hit_theory": {
+                    "priority": 2.3,
+                    "is_required": true
+                },
+                "astro_lagna_table": {
+                    "priority": 2.4,
+                    "is_required": true
+                }
+            }
+        },
+        "Activity": {
+            "priority": 3.0,
+            "is_required": true,
+            "content": {
+                "activity_general_and_crystals": {
+                    "priority": 3.1,
+                    "is_required": true
+                }
+            }
+        },
+        "Aura Scanning": {
+            "priority": 14.0,
+            "is_required": true,
+            "content": {}
+        },
+        "16 Zones and Remedies (3D)": {
+            "priority": 4.0,
+            "is_required": true,
+            "content": {},
+            "sixteen_zones": {
+                "enabled": true,
+                "mode": "detailed",
+                "selected_zones": [
+                    "N",
+                    "NNE",
+                    "NE",
+                    "ENE",
+                    "E",
+                    "ESE",
+                    "SE",
+                    "SSE",
+                    "S",
+                    "SSW",
+                    "SW",
+                    "WSW",
+                    "W",
+                    "WNW",
+                    "NW",
+                    "NNW"
+                ]
+            }
+        },
+        "Vastu Related to Your Profession": {
+            "priority": 5.0,
+            "is_required": true,
+            "content": {
+                "profession": {
+                    "priority": 5.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Marriage Remedies": {
+            "priority": 6.0,
+            "is_required": true,
+            "content": {
+                "marriage_remedies": {
+                    "priority": 6.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Court Case Remedies": {
+            "priority": 7.0,
+            "is_required": false,
+            "content": {}
+        },
+        "Gridding analysis (Entrance/Toilet/Kitchen)": {
+            "priority": 8.0,
+            "is_required": true,
+            "content": {
+                "gridding_analysis": {
+                    "priority": 8.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Cut and Extended Table": {
+            "priority": 9.0,
+            "is_required": true,
+            "content": {
+                "cut_extended": {
+                    "priority": 9.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Vastu Devta Mandala": {
+            "priority": 10.0,
+            "is_required": true,
+            "content": {
+                "vastu_devta_mandala": {
+                    "priority": 10.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Devtas energy field": {
+            "priority": 11.0,
+            "is_required": true,
+            "content": {
+                "devtas_energy_field": {
+                    "priority": 11.0,
+                    "is_required": true
+                }
+            }
+        },
+        "PRASHNA VICHAR": {
+            "priority": 12.0,
+            "is_required": true,
+            "content": {
+                "prashna_vichar": {
+                    "priority": 12.0,
+                    "is_required": true
+                }
+            }
+        },
+        "Wall Color Schema/Curtain Colors": {
+            "priority": 13.0,
+            "is_required": true,
+            "content": {
+                "wall_color_schema": {
+                    "priority": 13.0,
+                    "is_required": true
+                }
+            }
+        }
+    },
+    "sixteen_zones": {
+        "enabled": true,
+        "mode": "detailed",
+        "selected_zones": [
+            "N",
+            "NNE",
+            "NE",
+            "ENE",
+            "E",
+            "ESE",
+            "SE",
+            "SSE",
+            "S",
+            "SSW",
+            "SW",
+            "WSW",
+            "W",
+            "WNW",
+            "NW",
+            "NNW"
+        ]
+    },
+    "last_updated": "2026-01-10T11:53:52.908903",
+    "custom_front_page": "",
+    "custom_header": "",
+    "report_priorities": {
+        "numerovastu_loshu": {
+            "priority": 1
+        },
+        "numerovastu_zonal_strength": {
+            "priority": 2
+        },
+        "numerovastu_remedies": {
+            "priority": 3
+        },
+        "numerovastu_kua": {
+            "priority": 4
+        },
+        "fengshui_cards": {
+            "priority": 5
+        },
+        "astro_kundli": {
+            "priority": 6
+        },
+        "astro_astakavarga": {
+            "priority": 7
+        },
+        "astro_hit_theory": {
+            "priority": 8
+        },
+        "astro_lagna_table": {
+            "priority": 9
+        },
+        "activity_general_and_crystals": {
+            "priority": 10
+        },
+        "zones_threed_remedies": {
+            "priority": 11
+        },
+        "profession": {
+            "priority": 12
+        },
+        "marriage_remedies": {
+            "priority": 13
+        },
+        "court_case": {
+            "priority": 14
+        },
+        "gridding_analysis": {
+            "priority": 15
+        },
+        "cut_extended": {
+            "priority": 16
+        },
+        "vastu_devta_mandala": {
+            "priority": 17
+        },
+        "devtas_energy_field": {
+            "priority": 18
+        },
+        "prashna_vichar": {
+            "priority": 19
+        },
+        "wall_color_schema": {
+            "priority": 20
+        }
+    }
+}
