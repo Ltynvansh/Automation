@@ -5,41 +5,23 @@ import re
 import os
 from datetime import datetime
 
-# ---------------- BASE PATH ----------------
-appdata_local = os.path.join(
-    os.path.expanduser("~/Library/Application Support"),
-    "VastuApp"
-)
+# ---------------- PROJECT PATH (LOCAL FOLDER FIX) ----------------
+def get_project_path():
+    current_dir = os.getcwd()
+    report_file = os.path.join(current_dir, "report.data.json")
 
-projects_dir = os.path.join(appdata_local, "MapAnalysis_Projects")
-
-# ---------------- GET LATEST PROJECT ----------------
-def get_latest_project_path():
-    try:
-        projects = [
-            os.path.join(projects_dir, d)
-            for d in os.listdir(projects_dir)
-            if os.path.isdir(os.path.join(projects_dir, d))
-        ]
-
-        valid_projects = []
-
-        for project in projects:
-            report_file = os.path.join(project, "report.data.json")
-
-            if os.path.exists(report_file):
-                valid_projects.append(project)
-
-        if not valid_projects:
-            raise Exception("No valid project with report.data.json found")
-
-        latest_project = max(valid_projects, key=os.path.getmtime)
-
-        return latest_project
-
-    except Exception as e:
-        st.error(f"❌ Error: {e}")
+    if os.path.exists(report_file):
+        return current_dir
+    else:
+        st.error("❌ report.data.json not found in current folder")
         st.stop()
+
+project_path = get_project_path()
+
+# ---------------- JSON PATHS ----------------
+EXPECTED_JSON = os.path.join(project_path, "expected.json")
+ACTUAL_JSON = os.path.join(project_path, "actual.json")
+REPORT_DATA = os.path.join(project_path, "report.data.json")
 
 # Output files
 RESULT_FILE = "validation_result.txt"
@@ -62,41 +44,37 @@ def extract_docx_data(file):
     with zipfile.ZipFile(file) as docx:
         xml_bytes = docx.read("word/document.xml")
 
-    # Save XML
     with open(XML_FILE, "wb") as f:
         f.write(xml_bytes)
 
     xml = xml_bytes.decode()
-
-    # remove XML tags
     text = re.sub("<.*?>", " ", xml).lower()
 
     return text, xml
 
-
 # ---------------- IMAGE CHECK ----------------
 def check_image_after_keyword(xml, keyword):
-
     keyword = keyword.lower()
-    pos = xml.lower().find(keyword)
+    xml_lower = xml.lower()
+
+    pos = xml_lower.find(keyword)
 
     if pos == -1:
         return False
 
-    # check next part of xml
-    forward_chunk = xml[pos: pos + 8000]
+    forward_chunk = xml_lower[pos: pos + 8000]
 
-    if "<w:drawing" in forward_chunk or "<a:blip" in forward_chunk:
-        return True
+    has_image = "<w:drawing" in forward_chunk or "<a:blip" in forward_chunk
 
-    return False
+    if not has_image:
+        print(f"[DEBUG] Image NOT found near keyword: {keyword}")
 
+    return has_image
 
 # ---------------- RESULT LOGGER ----------------
 def write_result(msg):
     with open(RESULT_FILE, "a") as f:
         f.write(msg + "\n")
-
 
 # ---------------- FAIL REASON ----------------
 def get_fail_reason(toggle):
@@ -111,19 +89,17 @@ def get_fail_reason(toggle):
     else:
         return "Section heading not found (keyword mismatch)"
 
-
 # ---------------- UI ----------------
-st.title("Vastu Detailed Report Validator")
+st.set_page_config(page_title="Validator", layout="wide")
 
-st.info(f"📂 Using Project: {latest_project_path}")
+st.title("Vastu Detailed Report Validator")
+st.info(f"📂 Using Project: {project_path}")
 
 uploaded_file = st.file_uploader("Upload Detailed Report (.docx)", type=["docx"])
 
 if uploaded_file:
 
-    # clear old results
     open(RESULT_FILE, "w").close()
-
     st.success("DOCX Uploaded Successfully")
 
     # ---------------- LOAD JSON ----------------
@@ -157,7 +133,7 @@ if uploaded_file:
     # ---------------- TOGGLE VALIDATION ----------------
     for toggle, value in actual_toggles.items():
 
-        if value:  # only TRUE toggles
+        if value:
 
             keywords = TOGGLE_KEYWORDS.get(toggle, [toggle])
 
@@ -165,30 +141,25 @@ if uploaded_file:
             found_image = False
 
             for word in keywords:
-
                 if word.lower() in report_text:
                     found_text = True
 
                     if check_image_after_keyword(full_xml, word):
                         found_image = True
-
                     break
 
             if found_text and found_image:
-                st.success(f"✅ PASS: {toggle} (Text + Image)")
+                st.success(f"✅ PASS: {toggle}")
                 write_result(f"PASS: {toggle}")
                 pass_count += 1
 
-            elif found_text and not found_image:
+            elif found_text:
                 st.warning(f"⚠ PARTIAL: {toggle}")
-                st.warning("Reason: Text found but image missing")
-
-                write_result(f"PARTIAL: {toggle} (No Image)")
+                write_result(f"PARTIAL: {toggle}")
                 fail_count += 1
 
             else:
                 reason = get_fail_reason(toggle)
-
                 st.error(f"❌ FAIL: {toggle}")
                 st.warning(f"Reason: {reason}")
 
@@ -209,8 +180,6 @@ if uploaded_file:
             return
 
         items = [k for k, v in items_dict.items() if v]
-
-        st.write(f"Selected Items: {len(items)}")
 
         found = []
         missing = []
@@ -259,7 +228,6 @@ if uploaded_file:
     write_result("\n===== SUMMARY =====")
     write_result(f"PASS: {pass_count}")
     write_result(f"FAIL: {fail_count}")
-   
 
     st.success("📄 validation_result.txt saved")
     st.success("🧾 output.xml saved")

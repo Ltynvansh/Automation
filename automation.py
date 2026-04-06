@@ -67,7 +67,7 @@ def generate_gridded_report():
     time.sleep(5)
 
     print("Clicking Recent Project...")
-    pyautogui.moveTo(350, 441, duration=1)
+    pyautogui.moveTo(364, 515, duration=1)
     pyautogui.click()
     time.sleep(5)
 
