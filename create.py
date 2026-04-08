@@ -94,28 +94,28 @@ def run_layout_shape_automation():
         return
 
     # STEP 6 - Select Rectangle Shape
-    if not click_and_verify(1186, 383, "Rectangle_Shape"):
+    if not click_and_verify(1182, 355, "Rectangle_Shape"):
         return
 
     # STEP 7 - Enter Length = 100
     log("Activating Length field")
-    pyautogui.moveTo(374, 366, duration=0.6)
+    pyautogui.moveTo(380, 331, duration=0.6)
     pyautogui.doubleClick()
     enter_value(100)
     log("Length entered")
 
     # STEP 8 - Enter Breadth = 100
     log("Activating Breadth field")
-    pyautogui.moveTo(367, 402, duration=0.6)
+    pyautogui.moveTo(370, 364, duration=0.6)
     pyautogui.doubleClick()
     enter_value(100)
     log("Breadth entered")
 
     # STEP 9 - Click Create
-    if not click_and_verify(494, 668, "Create_Shape"):
+    if not click_and_verify(522, 703, "Create_Shape"):
         return
     # Step 10 - Apply Grid on layout 
-    if not click_and_verify(744, 135, "Apply_Grid"):
+    if not click_and_verify(680, 151, "Apply_Grid"):
         return
     # Step 11 - Click Show Grid
     if not click_and_verify(603, 451, "Show_Grid"):
@@ -127,7 +127,7 @@ def run_layout_shape_automation():
     if not click_and_verify(669, 507, "Popup_OK"):
         return
     # Step 14 Click on set refernce point
-    if not click_and_verify(832, 137, "Set_Reference"):
+    if not click_and_verify(764, 147, "Set_Reference"):
         return  
     #Step 15 - Click on layout to set reference point
     if not click_and_verify(380, 312, "Set_Reference_Point"):
