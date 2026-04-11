@@ -1,0 +1,294 @@
+===== VALIDATION REPORT =====
+Time: 2026-04-06 14:01:54.932699
+
+PARTIAL: Numero
+FAIL: Kua Number table
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Lo Shu Grid
+FAIL: Zone strength table
+Reason: Section heading not found (keyword mismatch)
+
+PARTIAL: Remedies
+PARTIAL: Astro
+PASS: Kundli
+FAIL: Lagn chart
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Astro Vastu Chart
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Astro Vastu Table
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Vedic Vastu Chart
+FAIL: Lal Kitab Makaan Kundli Chart
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vimshottari Dasha
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Navtara Chakra
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Devta Based on Dasha
+Reason: Devta section may be charts/images, not text
+
+FAIL: Plant Remedies
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: As per Astro-Vastu (Lagna Table)
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: KP Planet to Planet
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: KP house to Planet
+Reason: Section heading not found (keyword mismatch)
+
+PARTIAL: Activity
+FAIL: Crystal Remedies
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Medical
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Tridosha Moderne vastu
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Tridosha Vedic Vastu
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Body part
+PARTIAL: Devta
+FAIL: Moderne vastu Names 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Moderne vastu Names 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Moderne vastu Numbers 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Moderne vastu Numbers 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vedic Names 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vedic Names 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vedic Numbers 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vedic Numbers 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: ASTAKVARGA TABLE
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Home Table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Office Table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: 3D remedies inside 16 zones
+Reason: 3D content is graphical (images), not plain text
+
+FAIL: Wall color table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Center point image
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: PRASHNA VICHAR
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Feng Shui Cards
+Reason: Feng Shui items may be visual elements
+
+PASS: 8 Zones Analysis
+FAIL: 16 Zones Analysis
+Reason: Section heading not found (keyword mismatch)
+
+PASS: 24 Zones Analysis
+PASS: 64 Zones Analysis
+PASS: 32 Zone Moderne vastu
+PASS: 32 Zone Vedic Vastu
+PASS: Marma sthan
+PASS: 64 padvinyash
+PASS: 81 padvinyash
+PASS: Vedic Planet Zoning
+PASS: Elemental Zone
+FAIL: Vedic Elemental Zone
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Triguna
+FAIL: Triguna Vedic Vastu
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Sourcesink
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: google earth
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: color image
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Surya Chandra Bhag
+FAIL: 16 Direction Domestic Vastu
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: 8 Mandal Image
+Reason: Section heading not found (keyword mismatch)
+
+PASS: 4 States Image
+FAIL: Moderne vastu Compass
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Vedic Compass
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Moderne vastu Compass 1
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Ratna Sthapna
+PASS: Nakshatra Vastu
+PASS: Shakti Chakra
+FAIL: Zodiac Vastu
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Ancient Devtas Pad
+Reason: Devta section may be charts/images, not text
+
+PASS: Astha Disha Griha Vastu
+FAIL: TriDosha Pie Chart
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: TriGuna Pie Chart
+Reason: Section heading not found (keyword mismatch)
+
+PASS: 16 Zone Guidelines
+PASS: 32 Zone Guidelines
+PASS: 64 Zone Guidelines
+PASS: 4 States Guidelines
+FAIL: home_table_type
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: office_table_type
+Reason: Section heading not found (keyword mismatch)
+
+PARTIAL: General Suggestions
+FAIL: Profession Table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Marriage Remedies Table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Court Case Remedies Table
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Category Tables
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Cut and Extended Table
+FAIL: Vastu Devta Table
+Reason: Devta section may be charts/images, not text
+
+FAIL: Court Case Devta Energy Fields Table
+Reason: Devta section may be charts/images, not text
+
+FAIL: Maanasaram grandh
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Mayamatham grandh
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Aparajitaprccha grandh
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Nakshatra Chakra
+PASS: Ancient 81 pad Devta
+PASS: Ancient 81 pad Number
+FAIL: Padvinyash Guidelines 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Padvinyash Brahmanabhi 64
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Padvinyash Guidelines 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Padvinyash Brahmanabhi 81
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Ruling Deities Description
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: 16 Zones Directions
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: 16 Zones Numbers
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Commercial Vastu
+PASS: Industrial Vastu
+PASS: Office Vastu
+PASS: Hospital Vastu
+PASS: Grocery Store Vastu
+PASS: Gender Vastu
+PASS: Five Elements of Fengshui
+PASS: Academic Vastu
+PASS: Direction and Their Influence
+FAIL: Hindi Labels
+Reason: Section heading not found (keyword mismatch)
+
+PASS: Nakshatra Vastu Name
+PASS: Nakshatra Vastu Number
+FAIL: Colored Image
+Reason: Section heading not found (keyword mismatch)
+
+FAIL: Labeled Image
+Reason: Section heading not found (keyword mismatch)
+
+PARTIAL: NavGrah Shanti
+FAIL: Aura Scanning
+Reason: Section heading not found (keyword mismatch)
+
+
+[3D Remedies]
+Found: 16 | Missing: 21
+Missing: INDRADEV
+Missing: VillageScene
+Missing: RedHorses12
+Missing: DancingDolphins
+Missing: AshokaPillar
+Missing: RedElephants
+Missing: LoveBirds
+Missing: BrassLion
+Missing: TORTOISE_W
+Missing: GreenMountains
+Missing: YellowFlowerVas
+Missing: WeighingScale
+Missing: Nandi_W
+Missing: WhiteHorsesPair
+Missing: Pyramid_NE
+Missing: Pyramid_NNE
+Missing: RedHorsesPair
+Missing: Nandi_SW
+Missing: WhiteHorses12
+Missing: Talwar_S
+Missing: RedElephants_N
+
+[Devta]
+Found: 8 | Missing: 0
+
+[Feng Shui]
+Found: 6 | Missing: 0
+
+===== SUMMARY =====
+PASS: 40
+FAIL: 77

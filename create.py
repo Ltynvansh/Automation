@@ -120,6 +120,7 @@ def run_layout_shape_automation():
     # Step 11 - Click Show Grid
     if not click_and_verify(603, 451, "Show_Grid"):
         return
+    
     #Step 12 - Click Apply Button on Grid
     if not click_and_verify(592, 501, "Apply_Grid"):
         return
@@ -146,7 +147,7 @@ def run_layout_shape_automation():
         return
     
     #Step 19 - Click on Add Compas Button
-    if not click_and_verify(910, 136, "Add_Compass"):
+    if not click_and_verify(850, 145, "Add_Compass"):
         return
     
     #Step 21 - Enter Compass Value 
@@ -162,7 +163,7 @@ def run_layout_shape_automation():
     if not click_and_verify(586, 530, "Popup_OK_Compass"):
         return
     #Step 24 - Click on Remove Image 
-    if not click_and_verify(636, 139, "Remove_Image"):
+    if not click_and_verify(570, 150, "Remove_Image"):
         return
     
 
